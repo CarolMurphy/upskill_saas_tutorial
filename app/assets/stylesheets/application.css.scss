@@ -58,6 +58,17 @@ h1, h2, h3 {
   }
 }
 
+.navbar-default .navbar-toggle {
+  border: 1.5px solid teal;
+  &:hover, &:focus {
+    background-color: #dff0d8;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: teal;
+}
+
 //Home Page Styles
 .home-callout {
   color: cornsilk;
