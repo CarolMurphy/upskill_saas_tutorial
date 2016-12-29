@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   root to: 'pages#home'
   get 'about', to: 'pages#about'
   resources :contacts, only: :create
-  get 'contact-us', to: 'contacts#new', as: 'new_contact'
+  get 'contact-us', to: 'contacts#new', as: 'new_contact' # new_contact replaces contact_us as path name when rails routes is run
 end
