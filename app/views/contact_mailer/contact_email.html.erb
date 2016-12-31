@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<!-- this view will not be functional until the Mailgun smtp
+  server has been added through heroku addons. See ContactMailer -->
+<html>
+    <head></head>
+    <body>
+      <p>You have a new message from DevMatch.ContactForm. Sender:
+      <%= "#{ @name }, #{ @email }" %></p>
+      <p><%= @body %></p>
+    </body>
+
+</html>

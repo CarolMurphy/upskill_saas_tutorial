@@ -1,4 +1,6 @@
 class ContactMailer < ActionMailer::Base
+  #added but not activated.
+  #Mail Server Mailgun not installed yet
   default to: 'c_murph@comcast.net'
   
   def contact_email(name, email, body)
