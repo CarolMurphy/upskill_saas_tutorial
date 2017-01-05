@@ -77,6 +77,11 @@ h1, h2, h3 {
   padding-bottom: 100px;
 }
 
+//Adjust signup link spacing downward
+.home-signup-links {
+  margin-top: 30px;
+}
+
 //Hide devise alert-notices
 .alert-notice {
   display: none;
