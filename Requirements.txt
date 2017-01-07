@@ -3,3 +3,22 @@ Memberships
 *User should see link for Pro plan on homepage
 *Basic plan link should point to regular Devise sign up form
 *Pro plan link should point to custom sign up form
+
+ActiveRecord
+*The Model or 'M' in MVC architecture
+*Models are connected to the Schema file.
+*Update the model, the schema will be updated as well
+*Allows rails to query the db without typing sql commands by hand
+*SQL runs in the background. 
+*Call by typing Example.all.to_sql to see command as sql
+
+Parameters
+*Related to controller actions
+*Can be passed to page as query string or form submissons
+*Rails does not differentiate between query or form params
+*Are sent as params hash {key: value}
+*Can be stored as instance variable: @variable by creating Object:
+* @example = Example.new(example_params)
+
+Substitution
+*Replace rails code with what the code means mentally to follow whats going on
